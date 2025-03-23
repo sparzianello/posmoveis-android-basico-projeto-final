@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">FuelCheck</string>
     <string name="consumption">Consumo com %s</string>
-    <string name="select_fuel">Selecione o combustível</string>
+    <string name="select_fuel">Selecione o combustível ao lado</string>
     <string name="fuel_value">Valor do Litro de %s</string>
+    <string name="calculate_fuel">Calcular</string>
 </resources>

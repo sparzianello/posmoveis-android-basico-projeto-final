@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">FuelCheck</string>
-    <string name="consumption">Consumo com %s</string>
+    <string name="consumption">Consumo com </string>
     <string name="select_fuel">Selecione o combustível ao lado</string>
-    <string name="fuel_value">Valor do Litro de %s</string>
+    <string name="fuel_price">Valor do Litro de </string>
     <string name="calculate_fuel">Calcular</string>
+
+    <string name="fuel_type_1">Gasolina</string>
+    <string name="fuel_type_2">Etanol (Álcool)</string>
+    <string name="fuel_type_3">Diesel</string>
+    <string name="fuel_type_4">Gás Natural Veicular (GNV)</string>
+    <string name="fuel_type_5">Eletricidade</string>
+    <string name="fuel_type_6">Hidrogênio</string>
+    <string name="fuel_type_7">Biodiesel</string>
+    <string name="fuel_type_8">Bioetanol</string>
 </resources>

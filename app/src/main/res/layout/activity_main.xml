@@ -77,7 +77,7 @@
                     android:id="@+id/input_fuel_type_1_price"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/fuel_value">
+                    android:hint="@string/fuel_price">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/edit_fuel_type_1_price"
@@ -151,7 +151,7 @@
                     android:id="@+id/input_fuel_type_2_price"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/fuel_value">
+                    android:hint="@string/fuel_price">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/edit_fuel_type_2_price"

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fuel">
+        <item>@string/fuel_type_1</item>
+        <item>@string/fuel_type_2</item>
+        <item>@string/fuel_type_3</item>
+        <item>@string/fuel_type_4</item>
+        <item>@string/fuel_type_5</item>
+        <item>@string/fuel_type_6</item>
+        <item>@string/fuel_type_7</item>
+        <item>@string/fuel_type_8</item>
+    </string-array>
+</resources>

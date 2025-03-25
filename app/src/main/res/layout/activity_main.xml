@@ -163,7 +163,7 @@
         </androidx.cardview.widget.CardView>
 
         <LinearLayout
-            android:id="@+id/linearLayout"
+            android:id="@+id/button_calc"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginTop="12dp"
@@ -201,9 +201,9 @@
             android:layout_marginTop="12dp"
             android:layout_marginEnd="8dp"
             android:background="#000000"
-            app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="@+id/button_calc"
             app:layout_constraintStart_toStartOf="@+id/card_fuel_type_2"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+            app:layout_constraintTop_toBottomOf="@+id/button_calc" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

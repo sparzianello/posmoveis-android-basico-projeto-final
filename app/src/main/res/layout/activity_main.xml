@@ -18,7 +18,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="45dp"
             android:layout_marginEnd="16dp"
             app:cardCornerRadius="8dp"
             app:cardElevation="4dp"
@@ -57,7 +57,7 @@
                         android:background="@drawable/round_button"
                         android:importantForAccessibility="no"
                         android:scaleType="centerInside"
-                        android:src="@drawable/ic_search_fuel2" />
+                        android:src="@drawable/ic_search_fuel" />
                 </LinearLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -131,7 +131,7 @@
                         android:background="@drawable/round_button"
                         android:importantForAccessibility="no"
                         android:scaleType="centerInside"
-                        android:src="@drawable/ic_search_fuel2" />
+                        android:src="@drawable/ic_search_fuel" />
                 </LinearLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -175,6 +175,7 @@
             android:paddingHorizontal="8dp"
             android:paddingVertical="2dp"
             app:layout_constraintEnd_toEndOf="@+id/card_fuel_type_2"
+            app:layout_constraintStart_toStartOf="@+id/card_fuel_type_2"
             app:layout_constraintTop_toBottomOf="@+id/card_fuel_type_2">
 
             <TextView
@@ -183,7 +184,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:text="@string/calculate_fuel"
-                android:textColor="#000"
+                android:textColor="?attr/colorOnTertiary"
                 android:textSize="16sp" />
 
             <ImageView
@@ -200,7 +201,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="8dp"
-            android:background="#000000"
+            android:background="?attr/colorOnTertiary"
             app:layout_constraintEnd_toEndOf="@+id/button_calc"
             app:layout_constraintStart_toStartOf="@+id/card_fuel_type_2"
             app:layout_constraintTop_toBottomOf="@+id/button_calc" />

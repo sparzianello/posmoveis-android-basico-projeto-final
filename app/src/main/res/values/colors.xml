@@ -3,4 +3,17 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="ic_launcher_background">#E8E1D1</color>
+
+
+    <color name="dark_blue">#003366</color>
+    <color name="slate_blue">#6A5ACD</color>
+    <color name="dark_gray">#505050</color>
+    <color name="charcoal_gray">#2F4F4F</color>]
+    <color name="soft_cyan">#00CED1</color>
+    <color name="teal">#008080</color>
+    <color name="sky_blue">#87CEEB</color>
+
+    <color name="buttonDarkTheme">#928E98</color>
+    <color name="buttonLightTheme">#78737D</color>
+
 </resources>

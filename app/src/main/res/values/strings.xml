@@ -9,8 +9,8 @@
     <string name="fuel_type_2">Etanol (Álcool)</string>
     <string name="fuel_type_3">Diesel</string>
     <string name="fuel_type_4">Gás Natural Veicular (GNV)</string>
-    <string name="fuel_type_5">Eletricidade</string>
-    <string name="fuel_type_6">Hidrogênio</string>
-    <string name="fuel_type_7">Biodiesel</string>
-    <string name="fuel_type_8">Bioetanol</string>
+    <string name="fuel_type_5">Biodiesel</string>
+    <string name="fuel_type_6">Bioetanol</string>
+
+    <string name="input_error">Preencha todos os campos para calcular</string>
 </resources>

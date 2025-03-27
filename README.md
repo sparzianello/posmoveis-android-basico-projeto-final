@@ -14,8 +14,8 @@ TODO:
 - Frontend:
   - acertar string.xml para retornar o indicador de combustivel mais rentavel no calculo;
   - criar tela ou dialog de retorno para exibir o resultado do calculo;
-  - (opcional) estilizar a listagem dos combustiveis;
-  - acertar cores de estilização para light e dark themes.
+  [x] ~~(opcional) estilizar a listagem dos combustiveis;~~
+  [x] ~~acertar cores de estilização para light e dark themes.~~
 
 - Features que futuramente podem ser implementadas:
   - testes unitários;

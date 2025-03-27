@@ -1,6 +1,7 @@
 package posmoveis.sparzianello.fuelcheck
 
 import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import posmoveis.sparzianello.fuelcheck.databinding.ActivityFuelTypeListBinding
 
@@ -10,6 +11,7 @@ class FuelTypeListActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
         binding = ActivityFuelTypeListBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

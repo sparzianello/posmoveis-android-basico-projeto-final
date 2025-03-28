@@ -13,4 +13,9 @@
     <string name="fuel_type_6">Bioetanol</string>
 
     <string name="input_error">Preencha todos os campos para calcular</string>
+
+    <string name="final_result">O VENCEDOR É:</string>
+    <string name="close">Fechar</string>
+    <string name="fuel_final_result">Combustível:</string>
+    <string name="fuel_price_final_result">Custo por km:</string>
 </resources>

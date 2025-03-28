@@ -1,11 +1,15 @@
 package posmoveis.sparzianello.fuelcheck
 
+import android.app.Dialog
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import posmoveis.sparzianello.fuelcheck.databinding.ActivityMainBinding
+import androidx.core.graphics.drawable.toDrawable
+import posmoveis.sparzianello.fuelcheck.databinding.CustomDialogBinding
 
 
 class MainActivity : AppCompatActivity() {
@@ -32,6 +36,7 @@ class MainActivity : AppCompatActivity() {
                     FuelTypeListActivity::class.java
                 ).apply { putExtra("fuelType", 2) })
         }
+        binding.buttonCalc.setOnClickListener { showCustomDialog() }
     }
 
     private val getFuelType =
@@ -57,4 +62,18 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+    private fun showCustomDialog() {
+        val dialogBinding = CustomDialogBinding.inflate(layoutInflater)
+        val dialog = Dialog(this)
+
+        dialog.apply {
+            setContentView(dialogBinding.root)
+            window?.setBackgroundDrawable(Color.TRANSPARENT.toDrawable())
+
+            dialogBinding.closeButton.setOnClickListener { dismiss() }
+
+            show()
+        }
+    }
 }

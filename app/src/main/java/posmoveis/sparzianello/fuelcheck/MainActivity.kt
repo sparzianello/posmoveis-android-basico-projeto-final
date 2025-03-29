@@ -52,6 +52,14 @@ class MainActivity : AppCompatActivity() {
         binding.buttonSearchFuelType1.setOnClickListener { getFuelType.launch(Intent(this,FuelTypeListActivity::class.java).apply { putExtra("fuelType", 1) }) }
         binding.buttonSearchFuelType2.setOnClickListener { getFuelType.launch(Intent(this,FuelTypeListActivity::class.java).apply { putExtra("fuelType", 2) }) }
         binding.buttonCalc.setOnClickListener { calcConsumption() }
+        binding.buttonClear.setOnClickListener { clearFields() }
+    }
+
+    private fun clearFields() {
+        binding.editFuelType1Price.setText("")
+        binding.editFuelType2Price.setText("")
+        binding.editFuelType1Consumption.setText("")
+        binding.editFuelType2Consumption.setText("")
     }
 
     private val getFuelType = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {

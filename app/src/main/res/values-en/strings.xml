@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">FuelCheck</string>
     <string name="consumption">Consumption with </string>
-    <string name="select_fuel">Select the fuel in the icon</string>
+    <string name="select_first_fuel">Select the first type of fuel</string>
+    <string name="select_second_fuel">Select the second type of fuel</string>
     <string name="fuel_price">Price per liter/gallon of </string>
     <string name="calculate_fuel">Calculate</string>
 
@@ -18,4 +19,7 @@
     <string name="close">Close</string>
     <string name="fuel_final_result">Fuel:</string>
     <string name="fuel_price_final_result">Cost per km/mile:</string>
+
+    <string name="first_fuel">First Fuel</string>
+    <string name="second_fuel">Second Fuel</string>
 </resources>

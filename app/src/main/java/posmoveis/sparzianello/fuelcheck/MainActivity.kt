@@ -67,7 +67,9 @@ class MainActivity : AppCompatActivity() {
                     hintFuel1Price = getString(R.string.fuel_price).plus(" ").plus(fuelSelected)
 
                     binding.inputFuelType1Consumption.hint = hintFuel1Consumption
-                    binding.editFuelType1Consumption.setText(fuelConsumption.toString())
+                    if (binding.editFuelType1Consumption.text.isNullOrBlank()) {
+                        binding.editFuelType1Consumption.setText(fuelConsumption.toString())
+                    }
                     binding.inputFuelType1Price.hint = hintFuel1Price
                 }
                 else -> {
@@ -76,7 +78,9 @@ class MainActivity : AppCompatActivity() {
                     hintFuel2Price = getString(R.string.fuel_price).plus(" ").plus(fuelSelected)
 
                     binding.inputFuelType2Consumption.hint = hintFuel2Consumption
-                    binding.editFuelType2Consumption.setText(fuelConsumption.toString())
+                    if (binding.editFuelType2Consumption.text.isNullOrBlank()) {
+                        binding.editFuelType2Consumption.setText(fuelConsumption.toString())
+                    }
                     binding.inputFuelType2Price.hint = hintFuel2Price
                 }
             }
@@ -101,6 +105,9 @@ class MainActivity : AppCompatActivity() {
 
         val fuel1value = priceFuel1 / consumptionFuel1
         val fuel2value = priceFuel2 / consumptionFuel2
+
+        fuel1 = fuel1.ifEmpty { getString(R.string.first_fuel) }
+        fuel2 = fuel2.ifEmpty { getString(R.string.second_fuel) }
 
         if (fuel1value < fuel2value) {
             showCustomDialog(fuel1, fuel1value)

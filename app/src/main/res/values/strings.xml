@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">FuelCheck</string>
     <string name="consumption">Consumo com </string>
-    <string name="select_fuel">Selecione o combustível ao lado</string>
+    <string name="select_first_fuel">Selecione o primeiro combustível</string>
+    <string name="select_second_fuel">Selecione o segundo combustível</string>
     <string name="fuel_price">Valor do Litro de </string>
     <string name="calculate_fuel">Calcular</string>
 
@@ -18,4 +19,7 @@
     <string name="close">Fechar</string>
     <string name="fuel_final_result">Combustível:</string>
     <string name="fuel_price_final_result">Custo por km:</string>
+
+    <string name="first_fuel">Primeiro Combustível</string>
+    <string name="second_fuel">Segundo Combustível</string>
 </resources>

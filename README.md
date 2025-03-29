@@ -6,10 +6,9 @@
 
 TODO:
  - Backend:
-   - [ ] renomear variaveis e métodos para nomes mais sugestivos;
-   - [ ] acertar string hardcoded pelo string.xml no retorno do calculo (pendente front atualizar o arquivo);
-   - [ ] passar valores do calculo para outra tela ou dialog (pendente front criar essa especificidade);
-   - [X] ~~validar para que todas as telas mantenham os dados salvos ao rotacionar tela.~~
+   - [x] ~~acertar string hardcoded pelo string.xml no retorno do calculo (pendente front atualizar o arquivo);~~
+   - [x] ~~passar valores do calculo para outra tela ou dialog (pendente front criar essa especificidade);~~
+   - [x] ~~validar para que todas as telas mantenham os dados salvos ao rotacionar tela.~~
 
 - Frontend:
   - [x] ~~acertar string.xml para retornar o indicador de combustivel mais rentavel no calculo;~~

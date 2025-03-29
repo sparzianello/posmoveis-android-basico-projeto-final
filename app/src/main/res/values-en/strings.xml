@@ -9,10 +9,10 @@
     <string name="fuel_type_2">Ethanol (Alcohol)</string>
     <string name="fuel_type_3">Diesel</string>
     <string name="fuel_type_4">Compressed Natural Gas (CNG)</string>
-    <string name="fuel_type_5">Electricity</string>
-    <string name="fuel_type_6">Hydrogen</string>
-    <string name="fuel_type_7">Biodiesel</string>
-    <string name="fuel_type_8">Bioethanol</string>
+    <string name="fuel_type_5">Biodiesel</string>
+    <string name="fuel_type_6">Bioethanol</string>
+
+    <string name="input_error">Fill in all fields to calculate</string>
 
     <string name="final_result">THE WINNER IS:</string>
     <string name="close">Close</string>

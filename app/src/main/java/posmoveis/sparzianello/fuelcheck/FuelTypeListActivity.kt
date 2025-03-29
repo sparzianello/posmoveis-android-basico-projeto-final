@@ -42,12 +42,12 @@ class FuelTypeListActivity : AppCompatActivity() {
         }
 
         val consumption = when (selectedItemDescription) {
-            "Gasolina" -> Random.nextDouble(8.0, 15.0)
-            "Etanol (Álcool)" -> Random.nextDouble(6.0, 12.0)
-            "Diesel" -> Random.nextDouble(10.0, 18.0)
-            "Gás Natural Veicular (GNV)" -> Random.nextDouble(15.0, 25.0)
-            "Biodiesel" -> Random.nextDouble(8.0, 14.0)
-            "Bioetanol" -> Random.nextDouble(5.0, 10.0)
+            getString(R.string.fuel_type_1) -> Random.nextDouble(8.0, 15.0)
+            getString(R.string.fuel_type_2) -> Random.nextDouble(6.0, 12.0)
+            getString(R.string.fuel_type_3) -> Random.nextDouble(10.0, 18.0)
+            getString(R.string.fuel_type_4) -> Random.nextDouble(15.0, 25.0)
+            getString(R.string.fuel_type_5) -> Random.nextDouble(8.0, 14.0)
+            getString(R.string.fuel_type_6) -> Random.nextDouble(5.0, 10.0)
             else -> 0.0
         }
         return formatToTwoDecimalPlaces(consumption)
